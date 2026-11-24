@@ -1,127 +1,62 @@
-# Hasnain Ali: Full Stack Developer Portfolio
-
-Personal portfolio website of **Hasnain Ali**, a Full Stack, WordPress and Shopify Developer based in Haripur, Khyber Pakhtunkhwa, Pakistan.
-
-Built with Next.js, React, Tailwind CSS and Framer Motion.
-
-[LinkedIn](https://linkedin.com/in/hasnain-ali-97871233b) | [GitHub](https://github.com/Hasnain944) | hasnai0309@gmail.com | +92 346 2219309
-
----
-
-## About me
-
-Web Developer (currently at Whoopit) with experience in full stack development with the MERN stack and Next.js, WordPress/WooCommerce, and Shopify store development.
-
-
-## Technical skills
-
-| Area | Skills |
-| --- | --- |
-| Programming languages | HTML, CSS, JavaScript |
-| Frontend | React.js, Next.js, Tailwind CSS, Redux, jQuery |
-| Backend | Node.js, Next.js, Express.js |
-| Databases | MongoDB, MySQL, PostgreSQL |
-| Tools and platforms | Git, GitHub, Vercel, Postman, VS Code, Firebase |
-| Other | REST APIs, Authentication, Database Design, Responsive UI, SSR |
-
-**Soft skills:** creativity, error-free and detail-oriented work, strong interpersonal skills, effective communication, problem-solving, logical thinking, and teamwork.
-
-## Work experience
-
-### Full Stack Developer at DesignClinic.pk
-*Sep 2024 – Present*
-- Developing the ASIT web platform (inspired by ASET.org) with secure authentication and role-based access via Firebase Authentication and Firestore.
-- Built a fully responsive React.js and Tailwind CSS interface with RESTful workflows for enrollment and course management; deployed on Vercel.
-
-### Software Engineer at Mahhir 360
-*Jun 2025 – Nov 2025*
-- Designed and implemented core backend features (superadmin and user modules) for a restaurant internal management system using Node.js, Next.js API routes, and PostgreSQL.
-- Built key frontend features with Next.js, React.js, and Tailwind CSS, and integrated backend APIs with the frontend for a seamless end-to-end experience.
-
-### Frontend Engineer at Bonny
-*Jun 2025 – Sep 2025*
-- Developed interactive React.js and Next.js UI components to display events on a map, enabling saving, voucher redemption, and subscription management.
-- Built responsive business dashboards with QR-code voucher redemption and an admin control panel for users, businesses, and events.
-
-### Frontend Intern at Powersoft 19
-*Jun 2024 – Aug 2024*
-- Developed frontend features for a healthcare system using React.js and Tailwind CSS, collaborating with the team to enhance UI/UX and performance.
-
-### Data Analysis Intern at District Agriculture Department Office, Haripur
-*Jul 2023 – Sep 2023*
-- Automated reporting and quantitative analysis using Pandas and NumPy, cutting manual data-processing time by 40% through feature engineering.
-- Delivered reports and visualizations supporting planning decisions, and integrated weather API data into the Agricultural Information Portal.
-
-## Projects
-
-| Project | Period | Tech stack | What it is |
-| --- | --- | --- | --- |
-| **ASIT Learning Platform** | Jan 2026 – Present | React.js, Firebase, Tailwind CSS | Educational platform (modeled after ASET) for student enrollment and skill-training modules, with role-based auth and real-time data from Firestore. Deployed continuously on Vercel. |
-| **Crypto Coin Dummy Buy & Sell** | Aug 2024 – Oct 2024 | React.js, Binance WebSocket API | Live crypto tracking dashboard with real-time prices, dummy buy/sell portfolio management via localStorage, custom charts and a Favorites section. Deployed on Vercel. |
-| **PicoTech.pk Business Website** | Jul 2024 – Aug 2024 | Next.js, Tailwind CSS, Firebase Hosting | Company website showcasing IT services and client solutions, with SEO-optimized server-side rendered pages and Firebase-powered contact forms. |
-| **Inventory & Billing Management System** | May 2024 – Jul 2024 | MERN Stack | Billing, stock inventory and customer invoice system with secure login and admin/staff roles. Node.js CRUD APIs, MongoDB queries, PDF invoices and daily sales reports. Deployed on Render. |
-| **AI-Powered Fault Detection Dashboard** | Mar 2024 – May 2024 | Python, Streamlit, ML | Real-time equipment fault monitoring with simulated sensor inputs (temperature, vibration, pressure). ML models trained on the NASA Turbofan dataset with threshold alerts and fault predictions. |
-| **E-Commerce Storefront** | Jan 2024 – Mar 2024 | React.js, Firebase, Stripe | Online store with product listings, cart, order tracking and Stripe payments. Authentication, wishlists and order history via Firebase. Deployed on Vercel with a GitHub CI workflow. |
-| **Dynam Galaxy** | Sep 2024 – Oct 2024 | Next.js, React.js, Framer Motion | Interactive website showcasing the company's digital solutions, with custom Framer Motion animations and responsive layouts. Live: [dynamgalaxy.com](https://dynamgalaxy.com) |
-| **Quizical App** | Sep 2024 – Oct 2024 | Next.js, React.js, HTML, CSS | Quiz application with real-time question fetching via quiz APIs, score tracking and answer validation across categories. |
-
-## Education
-
-- **Bachelor of Software Engineering**, Pak-Austria Fachhochschule (PAF-IAST), Haripur (2022 – 2026)
-- **FSc Pre-Engineering**, Shoukat Public School & College, Haripur (2020 – 2022)
-
-## Certifications
-
-- Full-Stack Development
-- Frontend Development
-- Data Analytics
-- Introduction to Data Engineering
-- Introduction to IT & AWS Cloud
-- AI for Beginners
-- Introduction to Cyber Security
-- WordPress
-
-## Contact
-
-| | |
-| --- | --- |
-| Email | hasnai0309@gmail.com |
-| Phone | +92 346 2219309 |
-| LinkedIn | [linkedin.com/in/hasnain-ali-97871233b](https://linkedin.com/in/hasnain-ali-97871233b) |
-| GitHub | [github.com/Hasnain944](https://github.com/Hasnain944) |
-| Location | Haripur, Khyber Pakhtunkhwa, Pakistan |
-
----
-
-## Run it locally
-
-Requires Node.js 18.18 or newer.
-
-```bash
-npm install
-npm run dev        # http://localhost:3000
-npm run build      # production build
-npm run start      # serve the production build
-```
-
-(On Windows PowerShell use `npm.cmd` instead of `npm` if script execution is blocked.)
-
-## Where to edit content
-
-| What | File |
-| --- | --- |
-| Name, title, contact links, CV file, site description | `src/data/site.js` |
-| Summary, skills, experience, projects, education, certifications | `src/data/profile.js` |
-| Colors and fonts | `tailwind.config.js`, `src/app/globals.css` |
-
-**Project screenshots:** the three live-site cards (ShadBaad, InClick, InspireClick) use a generated cover until you add a real screenshot. Save an image as `public/projects/<slug>.jpg` (for example `public/projects/inclick.jpg`) and set `image: "/projects/inclick.jpg"` for that project in `src/data/profile.js`. A 1600x1000 image works well.
-
-**CV:** replace `public/Hasnain-Ali-CV.pdf` to update the download button (keep the same file name).
-
-## Deploy (Vercel)
-
-1. Push this folder to a GitHub repository.
-2. In Vercel, choose **Add New > Project** and import the repository. Next.js is detected automatically.
-3. Under **Environment Variables**, set `NEXT_PUBLIC_SITE_URL` to your final URL (for example `https://your-domain.com`). This feeds the sitemap, robots.txt, canonical URL, and social previews.
-4. Optional: set `NEXT_PUBLIC_FORM_ENDPOINT` to a Formspree (or similar) endpoint so the contact form delivers messages directly. Without it, the form opens the visitor's email app.
-5. Deploy. Every push to the main branch redeploys automatically.
+HASNAIN ALI
+Full Stack Developer  |  WordPress Developer  |  Shopify Developer
+Haripur, KPK, Pakistan  |  +92 346 2219309  |  hasnai0309@gmail.com  |  linkedin.com/in/hasnain-ali-97871233b
+PROFESSIONAL SUMMARY
+Web Developer with a Software Engineering background and hands-on experience in full stack development with the MERN stack and Next.js, WordPress/WooCommerce, and Shopify store development. Builds responsive websites and web applications from interface to database, including REST API integration, authentication, and e-commerce setup. Recent work includes two WooCommerce stores and a Shopify store, alongside production React.js and Next.js applications. Currently a Web Developer at Whoopit.
+TECHNICAL SKILLS
+Frontend: HTML5, CSS3, JavaScript, React.js, Next.js, Tailwind CSS, Redux, jQuery, Responsive Web Design
+Backend: Node.js, Express.js, Next.js API Routes, REST API Integration, Authentication
+CMS & E-commerce: WordPress, WooCommerce, Elementor, Elementor Pro, Shopify (store setup and theme customization), Payment Gateway Configuration, Product Management
+Databases: MongoDB, MySQL, PostgreSQL, Firebase, Firestore
+Tools & Platforms: Git, GitHub, VS Code, Postman, Vercel, Firebase Hosting, Render
+Other: Python (Pandas, NumPy), Streamlit, Database Design, Server-Side Rendering (SSR)
+WORK EXPERIENCE
+Web Developer  |  Whoopit	August 2026 – Present
+•	Develop and maintain websites, working across frontend and backend development.
+•	Build responsive layouts that work consistently across desktop, tablet, and mobile devices.
+•	Debug website issues and optimize pages for performance and usability.
+Full Stack Developer  |  DesignClinic.pk	Sep 2024 –July 2026
+•	Developing the ASIT web platform (modeled on ASET.org) with secure authentication and role-based access using Firebase Authentication and Firestore.
+•	Built a fully responsive React.js and Tailwind CSS interface with RESTful workflows for enrollment and course management; deployed on Vercel.
+Software Engineer  |  Mahhir 360	Jun 2025 – Nov 2025
+•	Designed and implemented backend features for the superadmin and user modules of a restaurant management system using Node.js, Next.js API routes, and PostgreSQL.
+•	Built frontend features with Next.js, React.js, and Tailwind CSS and integrated them with the backend APIs for an end-to-end workflow.
+Frontend Engineer  |  Bonny	Jun 2025 – Sep 2025
+•	Developed React.js and Next.js components that display events on a map and support saving, voucher redemption, and subscription management.
+•	Built responsive business dashboards with QR-code voucher redemption, and an admin control panel for managing users, businesses, and events.
+Frontend Intern  |  Powersoft 19	Jun 2024 – Aug 2024
+•	Developed frontend features for a healthcare system using React.js and Tailwind CSS, working with the team to improve UI/UX and performance.
+Data Analysis Intern  |  District Agriculture Department Office, Haripur	Jul 2023 – Sep 2023
+•	Automated reporting and quantitative analysis using Pandas and NumPy, cutting manual data-processing time by 40% through feature engineering.
+•	Delivered reports and visualizations to support planning decisions, and integrated weather API data into the Agricultural Information Portal.
+WORDPRESS, WOOCOMMERCE & SHOPIFY PROJECTS
+ShadBaad.pk  |  Shopify  |  shadbaad.pk	2026
+•	Created and configured a Shopify e-commerce store, including theme customization, storefront design, product organization, and essential store functionality.
+InClick  |  WordPress, WooCommerce, Elementor  |  inclicks.co.uk	2026
+•	Developed and configured a complete WooCommerce website with Elementor: homepage, shop, category and product pages, navigation, header, and footer.
+•	Configured payment methods (including resolving payment setup issues), shipping and delivery settings, and product listings; created Contact, Privacy Policy, Returns, and Terms pages.
+InspireClick  |  WordPress, WooCommerce, Elementor Pro  |  inspireclick.co.uk	2026
+•	Developed and customized a WooCommerce website with Elementor Pro: page layouts, homepage, product pages, and key site sections.
+•	Configured WooCommerce settings and improved site appearance, responsiveness, and user experience.
+WEB APPLICATION PROJECTS
+ASIT Learning Platform  |  React.js, Firebase, Tailwind CSS	Jan 2026 – July 2026
+•	Educational platform for student enrollment and skill-training modules with Firebase role-based auth and real-time Firestore data; deployed continuously on Vercel.
+Dynam Galaxy  |  Next.js, React.js, Framer Motion  |  dynamgalaxy.com	Sep 2024 – Oct 2024
+•	Interactive company website with custom Framer Motion animations and responsive layouts, built in collaboration with UI/UX designers.
+Quizical App  |  Next.js, React.js, HTML, CSS	Sep 2024 – Oct 2024
+•	Quiz application that fetches questions from quiz APIs, with score tracking, answer validation across categories, and a responsive interface.
+Crypto Coin Dummy Buy & Sell  |  React.js, Binance WebSocket API	Aug 2024 – Oct 2024
+•	Live crypto tracking dashboard with real-time Binance prices, custom charts, a Favorites section, and practice buy/sell portfolio management via localStorage; deployed on Vercel.
+PicoTech.pk Business Website  |  Next.js, Tailwind CSS, Firebase Hosting	Jul 2024 – Aug 2024
+•	Company website for IT services with SEO-optimized server-side rendered pages and Firebase-powered contact forms; deployed via Firebase Hosting and GitHub.
+Inventory & Billing Management System  |  MERN Stack	May 2024 – Jul 2024
+•	Billing, inventory, and invoicing system with admin/staff role-based access; Node.js CRUD APIs, MongoDB queries, PDF invoices, and daily sales reports; deployed on Render.
+AI-Powered Fault Detection Dashboard  |  Python, Streamlit, Machine Learning	Mar 2024 – May 2024
+•	Real-time equipment fault monitoring with simulated sensor inputs; ML models trained on the NASA Turbofan dataset with threshold alerts and fault predictions.
+E-Commerce Storefront  |  React.js, Firebase, Stripe	Jan 2024 – Mar 2024
+•	Online store with product listings, cart, order tracking, and Stripe payments; Firebase authentication, wishlists, and order history; deployed on Vercel with a GitHub CI workflow.
+EDUCATION
+Bachelor of Software Engineering  |  Pak-Austria Fachhochschule (PAF-IAST), Haripur	2022 – 2026
+FSc Pre-Engineering  |  Shoukat Public School & College, Haripur	2020 – 2022
+CERTIFICATIONS
+Courses: Full-Stack Development  ·  Frontend Development  ·  Data Analytics  ·  Introduction to Data Engineering  ·  Introduction to IT & AWS Cloud  ·  AI for Beginners  ·  Introduction to Cyber Security  ·  WordPress  -  AI for Business Professionals  ·  Critical Thinking in the AI Era  ·  Data Science & Analytics  ·  Effective Business Websites  ·  Introduction to Cybersecurity Awareness  ·  IT for Business Success  ·  Selling Online  ·  Social Media Marketing  ·  Customer Relationship Management  ·  Customer Experience (CX) for Business Success  ·  Design Thinking  ·  Effective Leadership  ·  Professional Networking for Career Growth  ·  Social Entrepreneurship  ·  Agile Project Management
